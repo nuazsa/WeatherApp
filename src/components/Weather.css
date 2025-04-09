@@ -1,0 +1,44 @@
+.weather-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.search-box {
+  margin-bottom: 2rem;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.weather-info {
+  text-align: center;
+}
+
+.temperature h1 {
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+
+.weather-details {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.weather-details p {
+  margin: 0.5rem 0;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin: 1rem 0;
+} 
